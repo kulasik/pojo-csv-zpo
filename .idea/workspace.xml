@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f75fce4-b12a-4395-994b-783d8ff86135" name="Changes" comment="Added exercise1 model">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/controller/ExerciseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/exercise/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/exercise/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/repository/SortOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/repository/exercise1/Exercise1Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/repository/exercise1/Exercise1RepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/repository/exercise2/Exercise2Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/repository/exercise2/Exercise2RepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/service/exercise1/Exercise1Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/service/exercise1/Exercise1ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/service/exercise2/Exercise2Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/service/exercise2/Exercise2ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/view/MenuOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/view/MenuView.java" afterDir="false" />
+    <list default="true" id="4f75fce4-b12a-4395-994b-783d8ff86135" name="Changes" comment="Completed project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/models/csv/Dostawcy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/csv/Dostawcy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/models/csv/MagazynP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/csv/MagazynP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/models/csv/MagazynW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/csv/MagazynW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/models/csv/Slownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kulasny/domain/csv/Slownik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kulasny/models/exercise/Exercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Magazynw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +54,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -137,7 +117,7 @@
       <workItem from="1670412579696" duration="405000" />
       <workItem from="1671403392847" duration="11681000" />
       <workItem from="1672235061793" duration="3353000" />
-      <workItem from="1672243116207" duration="5170000" />
+      <workItem from="1672243116207" duration="7341000" />
     </task>
     <task id="LOCAL-00001" summary="Added exercise1 model">
       <created>1669396601850</created>
@@ -146,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669396601850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed project">
+      <created>1672253586771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672253586771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +164,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added exercise1 model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercise1 model" />
+    <MESSAGE value="Completed project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ZPO_Warunek$Main.ic" NAME="Main Coverage Results" MODIFIED="1669883018043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,7 +1,10 @@
 package org.kulasny;
 
+import org.kulasny.controller.ExerciseController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ExerciseController exerciseController = new ExerciseController();
+        exerciseController.show();
     }
 }

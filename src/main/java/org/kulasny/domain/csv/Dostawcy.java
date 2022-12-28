@@ -1,4 +1,4 @@
-package org.kulasny.models.csv;
+package org.kulasny.domain.csv;
 
 public class Dostawcy {
     final Integer NrKlienta;
@@ -10,7 +10,7 @@ public class Dostawcy {
                     String miejscowosc,
                     String ulica,
                     String nazwaSkrocona) {
-        NrKlienta = Integer.valueOf(nrKlienta.trim());
+        NrKlienta = Integer.valueOf(nrKlienta.replaceAll("\\W+",""));
         Miejscowosc = miejscowosc;
         Ulica = ulica;
         NazwaSkrocona = nazwaSkrocona;

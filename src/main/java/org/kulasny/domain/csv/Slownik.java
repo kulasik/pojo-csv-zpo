@@ -1,9 +1,9 @@
-package org.kulasny.models.csv;
+package org.kulasny.domain.csv;
 
 public class Slownik {
-    final Integer Gr;
-    final Integer Podgr;
-    final Integer Rodz;
+    final String Gr;
+    final String Podgr;
+    final String Rodz;
     final String Typ;
     final String Opis;
     final Integer NrOdpadu;
@@ -14,23 +14,23 @@ public class Slownik {
                    String typ,
                    String opis,
                    String nrOdpadu) {
-        Gr = Integer.valueOf(gr.trim());
-        Podgr = Integer.valueOf(podgr.trim());
-        Rodz = Integer.valueOf(rodz.trim());
-        Typ = typ.trim();
+        Gr = gr.replaceAll("\\W+","");
+        Podgr = podgr.replaceAll("\\W+","");
+        Rodz = rodz.replaceAll("\\W+","");
+        Typ = typ.replaceAll("\\W+", "");
         Opis = opis;
-        NrOdpadu = Integer.valueOf(nrOdpadu.trim());
+        NrOdpadu = Integer.valueOf(nrOdpadu.replaceAll("\\W+",""));
     }
 
-    public Integer getGr() {
+    public String getGr() {
         return Gr;
     }
 
-    public Integer getPodgr() {
+    public String getPodgr() {
         return Podgr;
     }
 
-    public Integer getRodz() {
+    public String getRodz() {
         return Rodz;
     }
 

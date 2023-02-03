@@ -1,10 +1,12 @@
 package org.kulasny.domain.csv;
 
+import org.kulasny.domain.exercise.NrKartyP;
+
 import java.util.Arrays;
 import java.util.GregorianCalendar;
 
 public class MagazynP {
-    final String NrKarty;
+    final NrKartyP NrKarty;
     final GregorianCalendar DataD;
     final Double Masa;
     final String Jedn;
@@ -21,10 +23,10 @@ public class MagazynP {
                     String nrMag,
                     String nrOdpadu,
                     String nrKlienta) {
-        NrKarty = nrKarty;
+        NrKarty = new NrKartyP(nrKarty);
         int[] data = Arrays.stream((dataD.split("\\."))).mapToInt(Integer::parseInt).toArray();
         DataD = new GregorianCalendar(data[2], data[1], data[0]);
-        Masa = Double.valueOf(masa.replaceAll("\\W+",""));
+        Masa = Double.valueOf(masa.replaceAll("\\s",""));
         Jedn = jedn;
         Firma = Integer.valueOf(firma.replaceAll("\\W+",""));
         NrMag = Integer.valueOf(nrMag.replaceAll("\\W+",""));
@@ -32,7 +34,7 @@ public class MagazynP {
         NrKlienta = Integer.valueOf(nrKlienta.replaceAll("\\W+",""));
     }
 
-    public String getNrKarty() {
+    public NrKartyP getNrKarty() {
         return NrKarty;
     }
 

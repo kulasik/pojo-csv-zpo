@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
 public class Exercise1 {
-    final String nrKarty;
+    final NrKartyP nrKarty;
     final GregorianCalendar dataD;
     final String kod;
     final Double masa;
@@ -15,7 +15,7 @@ public class Exercise1 {
     final Integer nrMag;
     final String opis;
 
-    public Exercise1(String nrKarty,
+    public Exercise1(NrKartyP nrKarty,
                      GregorianCalendar dataW,
                      String kod,
                      Double masa,
@@ -37,7 +37,7 @@ public class Exercise1 {
         this.opis = opis;
     }
 
-    public String getNrKarty() {
+    public NrKartyP getNrKarty() {
         return nrKarty;
     }
 

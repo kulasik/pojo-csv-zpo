@@ -1,9 +1,11 @@
 package org.kulasny.domain.csv;
 
+import org.kulasny.domain.exercise.NrKartyW;
+
 import java.util.*;
 
 public class MagazynW {
-    final String NrKarty;
+    final NrKartyW NrKarty;
     final GregorianCalendar DataW;
     final Double Masa;
     final String Jedn;
@@ -20,7 +22,7 @@ public class MagazynW {
                     String nrKlienta,
                     String nrMagw,
                     String nrOdpadu) {
-        NrKarty = nrKarty;
+        NrKarty = new NrKartyW(nrKarty);
         int[] data = Arrays.stream((dataW.split("\\."))).mapToInt(Integer::parseInt).toArray();
         DataW = new GregorianCalendar(data[2], data[1], data[0]);
         Masa = Double.valueOf(masa.replaceAll("\\W+",""));
@@ -31,7 +33,7 @@ public class MagazynW {
         NrOdpadu = Integer.valueOf(nrOdpadu.replaceAll("\\W+",""));
     }
 
-    public String getNrKarty() {
+    public NrKartyW getNrKarty() {
         return NrKarty;
     }
 
